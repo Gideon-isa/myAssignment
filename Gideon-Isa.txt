@@ -39,4 +39,4 @@ Answers:
 	9 .git Directory contains all the information that is necessary for your project in version control and
 	   all the information about commits, remote repository and much more.
 
-	10. tracks of your project will be lost.
+	10. tracks of your projects will be lost.
