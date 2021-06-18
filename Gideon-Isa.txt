@@ -1,42 +1,90 @@
-Codebits Stretch Review questions: 
+Codebits Stretch Review questions / Answers 
     1. What is the difference between Git and Github?
-    2. What are the benefits of using Version Control System? 
-    3. What language is used in Git?
-    4. Mention the various Git repository hosting service providers (at least 4)
-    5. What is a repository in Git?
-    6. How can you create a repository in Git?
-    7. Name a few Git commands and explain their usage.
-    8. What is Git?
-    9. What is a .git Directory?
-    10. What happens if the .git directory gets deleted?
-​
-Answers:
-	1. Git is installed on your local system while Github is a repository hosting service
 
-	2. The benefits of using Version Control System include:
-	   a. keeps track of your of any changes made in the source code.
-	   b. Helps developers make use of previous version of source code.
-	   c. Help maintain the code.
-	   d. Allows for many developers to work on a source code without affecting each other's workflow.
+	Git is a local Version Control System software that enables developers to save snapshots of their projects over time.
+	It’s generally best for individual use.
 
-	3. C is the language used in Git.
+	While GitHub is a web-based platform that incorporates git’s version control features so they can be used collaboratively. 
+	It also includes project and team management features, as well as opportunities for networking and social coding.
+
+
+    2. What are the benefits of using Version Control System?
 	
-	4. There include; Amazon AWS CodeCommit, Assembla, Beanstalk, Codebase, Launchpad.
+	-It enables users to identify the development of the file through its various stages.
+	-The history of the document provides invaluable information about the author and the date of editing. 
+	 It also gives on the purpose of the changes made.
+	-Version control allows team members to work on the same document concurrently but independent of each other 
+	 without affecting the contribution of fellow collaborators.
+	-Version control enables the current team to analyze the deletion, editing, and creation of datasets 
+	 made since the original copy.
+	-It enables developers and organizations to work more efficiently in improving the quality of their product 
+	 while recording and evaluating a detailed history of their improvements that will lead to a successful end-product.
+ 
+    3. What language is used in Git?
 
-	5. A git repository is a folder that contains your project.
+	C programming language,
+	Shell programming language, and 
+	Perl programming language.
 
-	6. with a git command: mkdir
+    4. Mention the various Git repository hosting service providers (at least 4)
 
-	7. pwd = to print the working directory.
-	   cd  = to change directory.
-	   ls  = to list all folders in a drive and files in a folders.
-	   rm -r <file name> = to delete a file of folder.
-	   touch <file name> = to create a file.
+	They include: 
+	Amazon AWS 
+	CodeCommit
+	Assembla 
+	Beanstalk
+	Codebase
+	Launchpad.
 
-	8. Git is an Open Source Distributed Version Control System designed to handle changes to projects with 
-	   speed and efficiency.
+    5. What is a repository in Git?
 
-	9 .git Directory contains all the information that is necessary for your project in version control and
-	   all the information about commits, remote repository and much more.
+	Git is a free, open-source distributed version control system. It keeps track of projects and files 
+	as they change over time with the help of different contributors.
 
-	10. tracks of your projects will be lost.
+    6. How can you create a repository in Git? 
+
+	To create a repository this steps are taken:
+	Step 1: Create a folder for this project on your local hard drive using the following command
+	   $ mkdir my-project
+
+        Step 2: change into this folder
+	   $ cd my-project
+
+	Step 3: initialize a new, empty Git repository here
+	   $ git init
+
+	Step 4: add all changes to the next (= first) commit
+	   $ git add .
+
+	Step 5: create this first commit
+	   $ git commit -m "Initial commit"
+
+    7. Name a few Git commands and explain their usage.
+
+	git rm
+	git log
+	git show
+	git tag
+	git branch
+	git checkout
+	git merge
+	git remote
+	git push
+	git pull
+	git stash
+
+    8. What is Git?
+
+	Git is a version control system. Git tracks the changes you make to files, 
+	so you have a record of what has been done, and you can revert to specific versions should you ever need to. 
+	Git also makes collaboration easier, allowing changes by multiple people to all be merged into one source.
+ 
+    9. What is a .git Directory?
+
+	A Git repository that contains all of the project files and the entire revision history.
+
+    10. What happens if the .git directory gets deleted?
+
+	You will lose tracks of your projects, it will be lost. The repository will no longer be under version control.
+	
+​	
